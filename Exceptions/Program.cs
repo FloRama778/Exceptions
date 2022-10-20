@@ -21,17 +21,11 @@ namespace Exceptions
             byte num1 = 30;
             byte num2 = 60;
 
-            try
-            {
+           
                 int risultato = Utils.CalcolaRisultato(num1, num2);
 
                 Console.WriteLine($"Il risultato è: {risultato}");
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.ToString());
-            }
-            
+
             Console.ReadLine();
         }
     }
